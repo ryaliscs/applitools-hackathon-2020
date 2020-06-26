@@ -1,0 +1,18 @@
+plugins {
+	id 'java'
+}
+group 'com.applitools.v20'
+version '1.0-SNAPSHOT'
+sourceCompatibility = 1.8
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	// https://mvnrepository.com/artifact/junit/junit
+	testCompile group: 'junit', name: 'junit', version: '4.12'
+	// https://mvnrepository.com/artifact/com.applitools/eyes-selenium-java3
+	compile group: 'com.applitools', name: 'eyes-selenium-java3', version: '3.167.0'
+
+}
+
