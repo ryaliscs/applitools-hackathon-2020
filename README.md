@@ -11,14 +11,14 @@ eyes-selenium-java3
 ```
 
 ## How to run tests
-### Executing V1
+### Executing ModernTestsV1 tests
 ```
 cd ./ModernTestsV1
 gradlew build
 gradlew test
 ```
 
-### Executing V2
+### Executing ModernTestsV2 tests
 ```
 cd ./ModernTestsV1
 gradlew build
