@@ -4,10 +4,23 @@
 ```
 Java - 1.8
 ```
+## Build tool
+```
+Gradle
+Plugin used: Eclipse Buildship
+```
+
 ## Frame works used:
 ```
 Junit 
 eyes-selenium-java3
+```
+
+## Project Structure
+```
+|--applitools-hackathon-2020
+	|--ModernTestsV1
+	|--ModernTestsV2
 ```
 
 ## How to run tests
@@ -20,7 +33,7 @@ gradlew test
 
 ### Executing ModernTestsV2 tests
 ```
-cd ./ModernTestsV2
+cd ./ModernTestsV1
 gradlew build
 gradlew test
 ```
