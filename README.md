@@ -20,7 +20,7 @@ gradlew test
 
 ### Executing ModernTestsV2 tests
 ```
-cd ./ModernTestsV1
+cd ./ModernTestsV2
 gradlew build
 gradlew test
 ```
