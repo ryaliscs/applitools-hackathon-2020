@@ -19,9 +19,13 @@ import org.openqa.selenium.chrome.*;
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class ShoppingTest
 {
+  //~ Static Variables & Initializers --------------------------------------------------------------
+
   private static Eyes EYES;
   private static WebDriver WEB_DRIVER;
   private static VisualGridRunner RUNNER;
+
+  //~ Methods --------------------------------------------------------------------------------------
 
   /**
    * task1
@@ -117,7 +121,7 @@ public class ShoppingTest
     Configuration config = new Configuration();
 
     // You can get your api key from the Applitools dashboard
-    config.setApiKey("8AP7TpkRPS107AWIXxwQMpJhSJI6ljUXxc99rkMp15BY6c110");
+    config.setApiKey("HLjIb7SvgpwiUoB81G100ZlOa2tDzmGhVWld7m1gGDx5c110");
 
     // create a new batch info instance and set it to the configuration
     config.setBatch(new BatchInfo("UFG Hackathon"));

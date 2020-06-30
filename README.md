@@ -27,13 +27,11 @@ eyes-selenium-java3
 ### Executing ModernTestsV1 tests
 ```
 cd ./ModernTestsV1
-gradlew build
-gradlew test
+gradlew clean build (this will also trigger tests)
 ```
 
 ### Executing ModernTestsV2 tests
 ```
 cd ./ModernTestsV1
-gradlew build
-gradlew test
+gradlew build (this will also trigger tests)
 ```
